@@ -2,9 +2,23 @@
 
 // Declaring numbers
 
+$a = 5;
+$b = 4;
+$c = 1.2;
+
 // Arithmetic operations
 
+echo $a + $b. ' <br> ';
+echo $a - $b. ' <br> ';
+echo $a * $b. ' <br> ';
+echo $a / $b. ' <br> ';
+echo $a % $b. ' <br> ';
+
 // Assignment with math operators
+
+$a += $b. ' <br> ';
+$a -= $b. ' <br> ';
+$a *= $b. ' <br> ';
 
 // Increment operator
 
