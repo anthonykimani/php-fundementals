@@ -25,8 +25,19 @@ for ($i=0; $i < 100; $i++) {
 
 // foreach
 $fruits = ["apple", "banana", "cucumber"];
-foreach ($fruits as $fruit){
+foreach ($fruits as $fruit){ // prints each element in the fruit array
     echo $fruit;
 }
 
 // Iterate Over associative array.
+
+$person = [
+    "name" => "Antony",
+    "surname" => "Kimani",
+    "age" => 29,
+    "profession" => "Software Engineer"
+];
+
+foreach($person as $key => $value){
+    
+}
